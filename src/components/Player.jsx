@@ -49,19 +49,19 @@ const Player = () => {
               <Row className="iconsImg justify-content-center">
                 <Col xs={1} className="col-sm-1">
                   <Link to="#">
-                    <img src="assets/playerbuttons/Shuffle.png" alt="shuffle" />
+                    <img src="/assets/playerbuttons/Shuffle.png" alt="shuffle" />
                   </Link>
                 </Col>
                 <Col xs={1} className="col-sm-1">
                   <Link to="#">
-                    <img src="assets/playerbuttons/Previous.png" alt="previous" />
+                    <img src="/assets/playerbuttons/Previous.png" alt="previous" />
                   </Link>
                 </Col>
                 <Col xs={1} className="col-sm-1">
                   <Link to="#" onClick={handlePlayPause}>
                     <img
                       src={
-                        isPlaying ? "assets/playerbuttons/Pause.png" : "assets/playerbuttons/Play.png"
+                        isPlaying ? "/assets/playerbuttons/Pause.png" : "/assets/playerbuttons/Play.png"
                       }
                       alt="play/pause"
                     />
@@ -69,12 +69,12 @@ const Player = () => {
                 </Col>
                 <Col xs={1} className="col-sm-1">
                   <Link to="#">
-                    <img src="assets/playerbuttons/Next.png" alt="next" />
+                    <img src="/assets/playerbuttons/Next.png" alt="next" />
                   </Link>
                 </Col>
                 <Col xs={1} className="col-sm-1">
                   <Link to="#">
-                    <img src="assets/playerbuttons/Repeat.png" alt="repeat" />
+                    <img src="/assets/playerbuttons/Repeat.png" alt="repeat" />
                   </Link>
                 </Col>
               </Row>
