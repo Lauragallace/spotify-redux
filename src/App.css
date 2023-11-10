@@ -51,7 +51,10 @@ ul {
 .nav-btn a {
   color: rgb(145, 145, 145);
 }
-
+#button-addon2 {
+  color: rgb(60, 211, 60);
+  background-color: black;
+}
 #signup-btn {
   background-color: white;
   color: black;
@@ -68,9 +71,9 @@ ul {
 }
 
 #login-btn {
-  background-color: black;
+  background-color: rgb(60, 211, 60);
   color: white;
-  border: 1px solid white;
+  border: 1px solid rgb(60, 211, 60);
   border-radius: 20px;
   width: 180px;
   margin-bottom: 20px;

@@ -45,6 +45,11 @@ const Sidebar = () => {
           <Link className="nav-link mb-2" to="/library">
             <FaBookOpen size={24} /> Your Library
           </Link>
+          <div className="col-9 col-lg-11 d-none d-md-flex text-white" id="mainLinks">
+      <Link to="#">PLAYLIST</Link>
+      <Link to="#">ALBUM</Link>
+      <Link to="#">ARTIST</Link>
+      </div>
           <InputGroup>
             <FormControl
               placeholder="Search"
@@ -54,12 +59,13 @@ const Sidebar = () => {
               onChange={handleChange}
             />
             <Button variant="outline-secondary" id="button-addon2" onClick={handleSearch}>
-              GO
+              Go
             </Button>
           </InputGroup>
         </Nav>
       </Navbar.Collapse>
       <div className="nav-btn">
+      
         <Button className="btn" id="signup-btn">
           Sign Up
         </Button>
